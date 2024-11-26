@@ -9,7 +9,7 @@ const pageController = require('./controllers/pageControllers')
 const app = express();
 
 // connect db
-mongoose.connect('mongodb://localhost/pcat-test-db');
+mongoose.connect('mongodb+srv://emrekibar93:zolfAxnxAHMMeH16@cluster0.nf7jr.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
 
 //TEPMLATE ENGINE 
 app.set("view engine", "ejs");
